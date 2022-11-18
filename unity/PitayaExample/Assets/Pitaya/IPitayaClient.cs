@@ -88,5 +88,7 @@ namespace Pitaya
         /// <para>DEPRECATED. Use <see cref="OnRoute(string, Action&lt;T&gt;)"/> instead.</para>
         /// </summary>
         void OnRoute(string route, Action<string> action);
+
+        int GetRTT();        
     }
 }
